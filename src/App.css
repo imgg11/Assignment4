@@ -1,0 +1,22 @@
+.header{
+  text-align: center;
+  background-color: aqua;
+  margin-top: 0;
+  padding: 10px;
+}
+.products{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 50px;
+  padding: 5px;
+}
+.products div{
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  border-radius: 10%;
+  overflow:hidden ;
+  width: 300px;
+  height: 300px;
+}
